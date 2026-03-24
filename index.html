@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kalapács Kefás">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/png">
+    <link rel="stylesheet" href="./bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js" defer></script>
+    <title>Dream Travel</title>
+</head>
+<body>
+    <header style="padding: 4rem 0; text-align:center; font-weight: bold;">
+        <h1>Dream Travel</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Úticélok</a></li>
+            <li><a href="#">Galéria</a></li>
+            <li><a href="#">Kapcsolat</a></li>
+            <li><a href="#">Turizmus</a></li>
+            <li><a href="#">Rólunk</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container my-5">
+            <div class="cards-wrapper">
+                <article>
+                    <figure>
+                        <img src="./img/Párizs.jpg" alt="Párizs" title="Párizs">
+                    </figure>
+                    <div class="card-body">
+                        <h3>Párizs</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dignissimos minima fugit maiores architecto dicta ratione possimus repudiandae accusamus distinctio hic ut ducimus earum.</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="./img/Róma.jpg" alt="Róma" title="Róma">
+                    </figure>
+                    <div class="card-body">
+                        <h3>Róma</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dignissimos minima fugit maiores architecto dicta ratione possimus repudiandae accusamus distinctio hic ut ducimus earum.</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="./img/Tokyo.jpg" alt="Tokyo" title="Tokyo">
+                    </figure>
+                    <div class="card-body">
+                        <h3>Tokyo</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dignissimos minima fugit maiores architecto dicta ratione possimus repudiandae accusamus distinctio hic ut ducimus earum.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+
+        <h1 id="gallery" >Galéria</h1>
+        <div class="galery grid">
+            <figure><img class="picture" src="./img/1.jpg" alt="Galéria kép 1"></figure>
+            <figure><img class="picture" src="./img/2.jpg" alt="Galéria kép 2"></figure>
+            <figure><img class="picture" src="./img/3.jpg" alt="Galéria kép 3"></figure>
+            <figure><img class="picture" src="./img/4.jpg" alt="Galéria kép 4"></figure>
+        </div>
+
+        <h2>Jelentkezés utazásra</h2>
+        
+        <!-- for id --> 
+        <div class="container">
+            <form action="">
+            <label for="name">Neve</label>
+            <input type="name" id="name">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+            <label for="select">Úticél</label>
+            <select name="select" id="select">
+                <option value="Párizs">Párizs</option>
+                <option value="Tokió">Tokio</option>
+                <option value="Las_vegas">Last_vegas</option>
+                <option hidden selected value="válasszon">Válasszon</option>
+            </select>
+        </form>
+        </div>
+    </main>
+    <footer style="margin: 5rem;">
+
+    </footer>
+</body>
+</html>
